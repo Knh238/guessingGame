@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+
     <title>Guessing Game</title>
+
     <link rel='stylesheet' type='text/css' href='style.css'>
     <link rel='stylesheet' type="text/css" href='bootstrap.css'>
-     <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
-    <!-- Bootstrap and CSS here-->
-   <!--  <style>
-      .center {
-        text-align: center;
-      }
-      ul {
-          list-style: none;
-          padding: 0;
-      }
-      img {
-          display: inline;
-          width: 200px;
-          height: 100px;
-      }
-      #footer {
-          width: 100%;
-          border-top: solid 2px black;
-          background-color: white;
-          position: fixed;
-          bottom: 0;
-      }
-    </style> -->
+    <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
 
   </head>
   <body>
@@ -38,55 +19,64 @@
           <!-- Title and subtitles! -->
           <h1 class='title'> Guessing Game </h1>
           <h3 class='subtitle'> Guess a number between 1 & 100 </h3>
+    
 
         </div>
 
         <div id='main'class='container'>
+             <h3 id='title'> Play</h3>
           <div id='input-parent'class>
                 <input id='player-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+             <div><
+            <button type="button"  class="btn btn-info btn-lg" id="submit"> <h4>May the Odds Be Ever In Your Favor</h4></button>
+             </div> 
+            </div>
 
-            <button type=button  class=btn btn-info btn-lg id=submit> <h4>May the Odds Be Ever In Your Favor</h4></button>
-          </div>
-
-          <div id='guess' class='container'>
-            <ul class='previous'>
+          <div id='guesses' class='container'>
+            <ul class='previous' id="guess-list">
               <li class='attempt' >--</li>
               <li class='attempt' >--</li>
-                <li class='attempt' >--</li>
+              <li class='attempt' >--</li>
+              <li class='attempt' >--</li>
               <li class='attempt' >--</li>
             </ul>
-            <!-- unordered list of guesses -->
           </div>
-
+          <div>
+            <img src="test3.png" class=flourish> 
+          </div>
           <div id="menu-btns">
-            <button type= button class=btn btn-success btn-block id=hint> <h5>Hint?</h5></button>
-              <br>
-              <br>
-            <button type=button class=btn btn-success btn-block id=reset> <h5>Reset</h5></button>
-            <!-- reset and hint buttons -->
+              <div>
+            <button type= button id=hint> <h4>Hint?</h4></button>
+              </div>
+              <div>
+            <button type=button  id=reset> <h4>Reset</h4></button>
+              </div>
+
           </div>
         </div>
       </div>
+    
 
+    <div id='footer'>
+        <div class='cointainer'>
+          <div class="row">
 
-
-    <div id='footer' class='center'>
-        <div>
-          <div class=col-sm-4>
+            <div class="col-sm-4">
             <img src='fa-logo@2x.png'></img>
           </div>
-
-          <div id='author' class=col-sm-4>
+          
+          <div id='author' class="col-sm-4">
             <h3>Project by Kristin </h3>
           </div>
 
-          <div class=col-sm-4>
+          <div class="col-sm-4">
             <img src='grace_hopper_academy.png'></img>
           </div>
 
-
+           </div>
         </div>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="GuessingGame.js"></script>
   </body>
 </html>
