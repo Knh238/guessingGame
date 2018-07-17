@@ -1,0 +1,111 @@
+
+.center {
+        
+     
+      }
+* {
+    display: border-box;
+}
+ul {
+          list-style: none;
+          padding: 0;
+      }
+img {
+          display: inline;
+          width: 200px;
+          height: 50px;
+      }
+#footer {
+          width: 100%;
+          border: solid 2px black;
+    
+          background-color: white;
+          position: fixed; 
+          bottom: 3px;
+      }
+body {
+        background-color: DarkTurquoise !important;
+        width: 100%;
+        text-align: center;
+      }
+
+
+h1 {
+        font-family:'IM Fell English SC', serif !important;
+        font-size: 55px !important; 
+      }
+
+ h3 {
+         font-family:'IM Fell English SC', serif !important;
+      }
+
+#hint {
+        font-family: 'Courgette', cursive;
+        background-color: lavender;
+    
+      }
+#reset {
+        font-family:  'Spirax', cursive;;
+        background-color: lightsalmon;
+      }
+#try {
+        font-family: 'Spirax', cursive;
+        background-color: lightgreen;
+      }
+.title {
+    display: border-box; 
+}
+
+#author {
+        Font-family: Tahoma, Geneva, sans-serif;
+        background-color: LavenderBlush;
+
+      }
+#headers {
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+     border-width: 1px 0px 0px;
+    -moz-border-image: url(grace_hopper.png) 1 0 0 repeat stretch;
+    -webkit-border-image: url(grace_hopper.png) 1 0 0 repeat stretch;
+    -o-border-image: url(grace_hopper.png) 1 0 0 repeat stretch;
+   border-image: url(grace_hopper.png) 1 0 0 fill repeat stretch;
+
+
+}
+.div {
+
+}
+
+#guess {
+    display: inline; 
+    
+}
+.attempt {
+    display: inline;
+    font-size: 60px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+
+#player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 150px;
+    font-size: 60px; 
+}
+
+#input-parent {
+    margin: 5% auto50px;
+    position: relative; 
+}
+#submit {
+    height: 45px;
+    position: absolute;
+    top: 150px;
+    right: 35%;
+    font-family: 'Spirax', cursive;
+    background-color: lightgreen;
+}
+

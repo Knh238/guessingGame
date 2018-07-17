@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' type="text/css" href='bootstrap.css'>
+     <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+    <!-- Bootstrap and CSS here-->
+   <!--  <style>
+      .center {
+        text-align: center;
+      }
+      ul {
+          list-style: none;
+          padding: 0;
+      }
+      img {
+          display: inline;
+          width: 200px;
+          height: 100px;
+      }
+      #footer {
+          width: 100%;
+          border-top: solid 2px black;
+          background-color: white;
+          position: fixed;
+          bottom: 0;
+      }
+    </style> -->
+
+  </head>
+  <body>
+
+      <div id='app'>
+
+        <div id='headers'class=page-header>
+          <!-- Title and subtitles! -->
+          <h1 class='title'> Guessing Game </h1>
+          <h3 class='subtitle'> Guess a number between 1 & 100 </h3>
+
+        </div>
+
+        <div id='main'class='container'>
+          <div id='input-parent'class>
+                <input id='player-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+
+            <button type=button  class=btn btn-info btn-lg id=submit> <h4>May the Odds Be Ever In Your Favor</h4></button>
+          </div>
+
+          <div id='guess' class='container'>
+            <ul class='previous'>
+              <li class='attempt' >--</li>
+              <li class='attempt' >--</li>
+                <li class='attempt' >--</li>
+              <li class='attempt' >--</li>
+            </ul>
+            <!-- unordered list of guesses -->
+          </div>
+
+          <div id="menu-btns">
+            <button type= button class=btn btn-success btn-block id=hint> <h5>Hint?</h5></button>
+              <br>
+              <br>
+            <button type=button class=btn btn-success btn-block id=reset> <h5>Reset</h5></button>
+            <!-- reset and hint buttons -->
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div>
+          <div class=col-sm-4>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div id='author' class=col-sm-4>
+            <h3>Project by Kristin </h3>
+          </div>
+
+          <div class=col-sm-4>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
