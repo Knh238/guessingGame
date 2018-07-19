@@ -41,6 +41,7 @@ h3 {
         width: 12%;
         height: 60px;
         margin-bottom: 1%;
+        font-size: 25px;
       }
 #reset {
         font-family:  'Spirax', cursive;;
@@ -48,6 +49,7 @@ h3 {
         text-decoration-color: black;
         width: 12%;
         margin-bottom: 1.5%;
+        font-size: 20px;
       }
 
 .GGame {
@@ -56,6 +58,8 @@ h3 {
 }
 .subtitle {
     text-shadow: 1px 1px 2px orange;
+    font-size: 35px;
+    font-family:'IM Fell English SC', serif;
 }
 
 .flourish {
@@ -69,20 +73,20 @@ h3 {
 
 #headers {
     text-align: center;
-    padding: 1px;
+    /* padding: 1px; */
     border-style: solid;
-     border-width: 1px 0px 0px;
+    border-width: 1px 0px 0px;
     -moz-border-image: url(grace_hopper.png) 1 0 0 repeat stretch;
     -webkit-border-image: url(grace_hopper.png) 1 0 0 repeat stretch;
     -o-border-image: url(grace_hopper.png) 1 0 0 repeat stretch;
     border-image: url(grace_hopper.png) 1 0 0 fill repeat stretch;
     position: relative;
-
 }
 
 #guesses {
     display: inline; 
 }
+
 .attempt {
     display: inline;
     font-size: 50px;
@@ -112,8 +116,17 @@ h3 {
     /* font-family: 'Spirax', cursive; */
     font-family:'IM Fell English SC', serif;
     background-color: lightgreen;
+    font-size: 19px;
 }
-#title {
+
+#msg {
     text-shadow: 1px 1px 2px white;
     font-size: 40px;
+}
+
+.cold {
+    text-shadow: 1px 1px 2px blue;
+}
+.hot {
+    text-shadow: 1px 1px 2px red;
 }

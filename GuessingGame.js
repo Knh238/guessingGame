@@ -96,7 +96,7 @@ function makeAGuess(game) {
     var guess = $('#player-input').val();
     $('#player-input').val("");
     var output = game.playersGuessSubmission(parseInt(guess,10));
-    $('#title').text(output);
+    $('#msg').text(output);
 }
 
  $(document).ready(function (){
@@ -115,12 +115,12 @@ function makeAGuess(game) {
       $('#hint').click(function() {
        console.log('hint clicked')
         var hints = game.provideHint();
-        $('#title').text('The winning number is '+hints[0]+', '+hints[1]+', or '+hints[2]);
+        $('#msg').text('The winning number is '+hints[0]+', '+hints[1]+', or '+hints[2]);
           //Game.provideHint();
     })
       $('#reset').click(function(e) {
         game = newGame();
-        $('#title').text('Play the Guessing Game!');
+        $('#msg').text('Play the Guessing Game!');
         $('#subtitle').text('Guess a number between 1-100!')
         $('.attempt').text('--');
         $('#hint, #submit').prop("disabled",false);
